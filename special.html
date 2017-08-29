@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title></title>
+	    <link href="css/mui.min.css" rel="stylesheet" type="text/css"/>
+	    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	    <script type="text/javascript"> 
+	        !function(J){function H(){var d=E.getBoundingClientRect().width;var e=(d/7.5>100*B?100*B:(d/7.5<42?42:d/7.5));E.style.fontSize=e+"px",J.rem=e}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),B=0,A=0;if(D){var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),H()}(window);
+	        if (typeof(M) == 'undefined' || !M){
+	            window.M = {};
+	        }
+	    </script> 
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav header">
+		    <a class="mui-icon mui-icon-bars mui-pull-left" href="javascript:;" id="menu-btn"></a>
+		    <h1 class="mui-title"><a href=""><img src="images/i4-logo.png"/></a></h1>
+		</header>
+		<!--显示下拉-->
+		<div id="menu-wrapper" class="menu-wrapper ">
+				<div id="menu" class="menu">
+					<a class="current" href="index.html">首页</a>
+					<a href="evaluation.html">测评</a>
+					<a href="special.html">专题</a>
+					<a href="ranking.html">排行榜</a>
+					<a href="category.html">类别</a>
+				</div>
+		</div>
+		<div id="menu-backdrop" class="menu-backdrop"></div>
+		<div class="mui-content">
+			<!--图片轮播-->
+		      <div id="slider" class="mui-slider" >
+				  <div class="mui-slider-group mui-slider-loop">
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/banner1.jpg">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/banner1.jpg">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/banner2.png">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/banner3.png">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/banner4.jpg">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/banner1.jpg">
+				      </a>
+				    </div>
+				  </div>
+				  <div class="mui-slider-indicator">
+				    <div class="mui-indicator mui-active"></div>
+				    <div class="mui-indicator"></div>
+				    <div class="mui-indicator"></div>
+				    <div class="mui-indicator"></div>
+				  </div>
+			</div>
+			<ul class="special-list">
+				<li>
+					<a href=""><img src="images/tj.png"/></a>
+				</li>
+				<li>
+					<a href=""><img src="images/tj1.png"/></a>
+				</li>
+				<li>
+					<a href=""><img src="images/tj3.png"</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/mui.min.js"></script>
+	    <script type="text/javascript" src="js/app.js" ></script>
+	</body>
+</html>

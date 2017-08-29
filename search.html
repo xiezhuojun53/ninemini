@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title></title>
+	    <link href="css/mui.min.css" rel="stylesheet" type="text/css"/>
+	    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	    <script type="text/javascript"> 
+	        !function(J){function H(){var d=E.getBoundingClientRect().width;var e=(d/7.5>100*B?100*B:(d/7.5<42?42:d/7.5));E.style.fontSize=e+"px",J.rem=e}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),B=0,A=0;if(D){var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),H()}(window);
+	        if (typeof(M) == 'undefined' || !M){
+	            window.M = {};
+	        }
+	    </script> 
+	</head>
+	<body>
+		<div class="search-header">
+			<div class="mui-input-row mui-search">
+			    <input type="search" class="mui-input-clear" placeholder="搜索">
+			</div>
+		</div>
+		<div class="hot-search">
+			<h2>热门搜索</h2>
+			<ul>
+				<li><a href="search-list.html">腾讯</a></li>
+				<li><a href="search-list.html">斗图</a></li>
+				<li><a href="search-list.html">单车</a></li>
+				<li><a href="search-list.html">小程序</a></li>
+				<li><a href="search-list.html">宝宝</a></li>
+				<li><a href="search-list.html">视频</a></li>
+				<li><a href="search-list.html">壁纸</a></li>
+				<li><a href="search-list.html">阅读</a></li>
+				<li><a href="search-list.html">小说</a></li>
+				<li><a href="search-list.html">工具</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+		<script type="text/javascript" src="js/mui.min.js"></script>
+	    <script type="text/javascript" src="js/app.js" ></script>
+	</body>
+</html>
